@@ -15,7 +15,7 @@
     --fon-size: 18px;
     --max-width: 1400px;
     --nav-heigth: 70px;
-
+    --font-weigth: 700;
 }
 
 ::selection{
@@ -64,3 +64,40 @@ nav{
     font-weight: 700;
     margin-left: 20px;
 }
+
+
+.segundo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.vh-100{
+    height: calc(100vh - var(--nav-heigth));
+}
+
+.text{
+    flex-basis: 45%;
+}
+
+.tittle{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.copy{
+    margin: 20px 0;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.cta{
+    display: inline-block;
+    background-color: var(--main-color);
+    color: var(--secod-color);
+    text-decoration: none;
+    font-weight: 700;
+    padding: 16px 30px;
+    border-radius: 30px;
+}
+
