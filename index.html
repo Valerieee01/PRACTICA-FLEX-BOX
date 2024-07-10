@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
+    <title>FLEX-BOX</title>
     <meta name="description" content="Hola este es un podisible texto de descricion de busqueda">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon-2.png" type="image/png">
 </head>
 <body>
     <header>
         <div class="container">
             <a href="">
-                <img src="logo.png" alt="logo">
+                <img src="img/logo.png" alt="logo">
             </a>
             <nav class="nav-content">
                <a href="#inicio" class="enlaces">Inicio</a>
-               <a href="#" class="enlaces">Nosotros </a>
-               <a href="#" class="enlaces">Servicios</a>
-               <a href="#" class="enlaces">Galeria</a>
+               <a href="#nosotros" class="enlaces">Nosotros </a>
+               <a href="#servicios" class="enlaces">Servicios</a>
+               <a href="#galeria" class="enlaces">Galeria</a>
                <a href="#" class="enlaces">Contacto</a>
             </nav>
         </div>
@@ -30,7 +31,70 @@
                         <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, qui.</p>
                         <a href="#" class="cta">Aprende ahora</a> 
                     </div>
-                    <img src="nerd.png" alt="nerd">
+                    <img src="img/nerd.png" alt="nerd">
+            </div>
+        </section>
+        <section id="nosotros">
+            <div class="container nosotros vh-100">
+                <img src="img/about.png" alt="nosotros">
+                    <div>
+                        <h3 class="tittle">Nosotros</h3>
+                        <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae, dicta minus quod sit dolores!</p>
+                    </div>
+            </div>
+        </section>
+        <section id="servicios" class="vh-100">
+            <div class="txt-center">
+                <h2 class="tittle">Servicios</h2>
+                <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam.</p>
+            </div>
+            <div class="cards">
+                <div class="card__item">
+                    <h3 class="card__plan">GIT</h3>
+                    <h3 class="card__price">Basico</h3>
+                    <p class="card__caracteristic">Hasta 30 personas por curso</p>
+                    <p class="card__caracteristic">Caracteristica 1</p>
+                    <p class="card__caracteristic">Caracteristica 2</p>
+                    <p class="card__caracteristic">Caracteristica 3</p>
+                    <a class="cta" href="#">Aprender Ahora</a>
+                </div>
+                <div class="card__item card__item--active">
+                    <h3 class="card__plan">GIT</h3>
+                    <h3 class="card__price">Intermedio</h3>
+                    <p class="card__caracteristic">Hasta 30 personas por curso</p>
+                    <p class="card__caracteristic">Caracteristica 1</p>
+                    <p class="card__caracteristic">Caracteristica 2</p>
+                    <p class="card__caracteristic">Caracteristica 3</p>
+                    <p class="card__caracteristic">Caracteristica 4</p>
+                    <p class="card__caracteristic">Caracteristica 5</p>
+                    <a class="cta cta--black" href="#">Aprender Ahora</a>
+                </div>
+                <div class="card__item">
+                    <h3 class="card__plan">GIT</h3>
+                    <h3 class="card__price">Basico</h3>
+                    <p class="card__caracteristic">Hasta 30 personas por curso</p>
+                    <p class="card__caracteristic">Caracteristica 1</p>
+                    <p class="card__caracteristic">Caracteristica 2</p>
+                    <p class="card__caracteristic">Caracteristica 3</p>
+                    <a class="cta" href="#">Aprender Ahora</a>
+                </div>
+            </div>
+        </section>
+        <section id="galeria">
+            <div class="container vh-100">
+                <div class="txt-center">
+                    <h2 class="tittle">Galeria</h2>
+                    <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam.</p>
+                </div>
+                <div class="imgs">
+                    <img class="imgs__img" src="img/uno.jpg" alt="">
+                    <img class="imgs__img" src="img/dos.jpg" alt="">
+                    <img class="imgs__img" src="img/tres.jpg" alt="">
+                    <img class="imgs__img" src="img/cuatro.jpg" alt="">
+                    <img class="imgs__img" src="img/cinco.jpg" alt="">
+                    <img class="imgs__img" src="img/seis.jpg" alt="">
+                </div>
+
             </div>
         </section>
     </main>
