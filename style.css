@@ -171,5 +171,7 @@ nav{
 .imgs__img{
     max-width: 350px;
     width: 30%;
-
+    height: 200px;
+    align-items: center;
 }
+
