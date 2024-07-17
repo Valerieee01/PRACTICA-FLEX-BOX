@@ -163,15 +163,40 @@ nav{
 }
 
 /* galeria */
-.imgs{
-    align-items: center;
-    justify-content: space-evenly;
-    
+.galery{
+   margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
 }
-.imgs__img{
-    max-width: 350px;
+.img{
     width: 30%;
-    height: 200px;
-    align-items: center;
+    height: 250px;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+/* -----------CONTACTO--------------*/
+
+.contacto{
+    width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    padding: 12px;
+    font-size: var(--fon-size);
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    resize: none;
 }
 

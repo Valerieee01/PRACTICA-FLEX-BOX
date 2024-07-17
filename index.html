@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="img/favicon-2.png" type="image/png">
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -15,32 +17,33 @@
                 <img src="img/logo.png" alt="logo">
             </a>
             <nav class="nav-content">
-               <a href="#inicio" class="enlaces">Inicio</a>
-               <a href="#nosotros" class="enlaces">Nosotros </a>
-               <a href="#servicios" class="enlaces">Servicios</a>
-               <a href="#galeria" class="enlaces">Galeria</a>
-               <a href="#" class="enlaces">Contacto</a>
+                <a href="#inicio" class="enlaces">Inicio</a>
+                <a href="#nosotros" class="enlaces">Nosotros </a>
+                <a href="#servicios" class="enlaces">Servicios</a>
+                <a href="#galeria" class="enlaces">Galeria</a>
+                <a href="#contacto" class="enlaces">Contacto</a>
             </nav>
         </div>
     </header>
     <main>
         <section id="inicio">
             <div class="container segundo vh-100">
-                    <div class="text">
-                        <h1 class="tittle">BIENVENIDOS AL DISEÑO WEB</h1>
-                        <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, qui.</p>
-                        <a href="#" class="cta">Aprende ahora</a> 
-                    </div>
-                    <img src="img/nerd.png" alt="nerd">
+                <div class="text">
+                    <h1 class="tittle">BIENVENIDOS AL DISEÑO WEB</h1>
+                    <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, qui.</p>
+                    <a href="#" class="cta">Aprende ahora</a>
+                </div>
+                <img src="img/nerd.png" alt="nerd">
             </div>
         </section>
         <section id="nosotros">
             <div class="container nosotros vh-100">
                 <img src="img/about.png" alt="nosotros">
-                    <div>
-                        <h3 class="tittle">Nosotros</h3>
-                        <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae, dicta minus quod sit dolores!</p>
-                    </div>
+                <div>
+                    <h3 class="tittle">Nosotros</h3>
+                    <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vitae, dicta
+                        minus quod sit dolores!</p>
+                </div>
             </div>
         </section>
         <section id="servicios" class="vh-100">
@@ -86,18 +89,53 @@
                     <h2 class="tittle">Galeria</h2>
                     <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam.</p>
                 </div>
-                <div class="imgs">
-                    <img class="imgs__img" src="img/uno.jpg" alt="">
-                    <img class="imgs__img" src="img/dos.jpg" alt="">
-                    <img class="imgs__img" src="img/tres.jpg" alt="">
-                    <img class="imgs__img" src="img/cuatro.jpg" alt="">
-                    <img class="imgs__img" src="img/cinco.jpg" alt="">
-                    <img class="imgs__img" src="img/seis.jpg" alt="">
+                <div class="galery">
+                    <img class="img" src="img/uno.jpg" alt="">
+                    <img class="img" src="img/dos.jpg" alt="">
+                    <img class="img" src="img/tres.jpg" alt="">
+                    <img class="img" src="img/cuatro.jpg" alt="">
+                    <img class="img" src="img/cinco.jpg" alt="">
+                    <img class="img" src="img/seis.jpg" alt="">
                 </div>
 
             </div>
         </section>
+        <section id="contacto">
+            <div class="container vh-100">
+                <div class="txt-center">
+                    <h2 class="tittle">Contactenos</h2>
+                    <p class="copy">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, corrupti.
+                    </p>
+                </div>
+                <form action="" class="contacto">
+                    <div class="form-group">
+                        <label for="nombre">Nombres:</label>
+                        <input type="text" id="nombre" class="input">
+                    </div>
+                    <div class="form-group">
+                        <label for="apellidos">Apellidos:</label>
+                        <input type="text" id="apellidos" class="input">
+                    </div>
+                    <div class="form-group">
+                        <label for="telefono">Telefono:</label>
+                        <input type="tel" id="telefono" class="input">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" class="input">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea name="mensaje" id="mensaje" class="input" cols="12" rows="12"></textarea>
+                    </div>
+                    <button class="cta" type="button">Enviar</button>
+            </div>
+
+            </form>
+        </section>
     </main>
 
 </body>
+
 </html>
