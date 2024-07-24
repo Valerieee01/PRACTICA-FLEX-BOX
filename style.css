@@ -71,7 +71,7 @@ nav{
 }
 
 
-.segundo{
+.principal{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -200,3 +200,38 @@ nav{
     resize: none;
 }
 
+/*--MEDIA-*/
+@media (max-width: 800px) {
+    .principal{
+        flex-direction: column;
+    }
+
+    .ilustracion{
+        order: 1;
+    }
+
+    .text{
+        order: 2;
+    }
+
+    .nosotros{
+        flex-direction: column;
+    }
+
+    .cards{
+        flex-direction: column;
+        align-items: center;    
+    }
+    
+    .card__item{
+        margin-bottom: 20px;
+        width: 50%;
+        background-color: var(--white-color);
+        color: var(--secod-color);
+        text-align: center;
+        padding: 40px 0;
+        border-radius: 10px;
+    }
+
+
+}
