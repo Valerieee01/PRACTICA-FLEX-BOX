@@ -216,22 +216,36 @@ nav{
 
     .nosotros{
         flex-direction: column;
+        align-items: center;
     }
 
     .cards{
+        display: flex;
         flex-direction: column;
-        align-items: center;    
     }
-    
+
     .card__item{
-        margin-bottom: 20px;
-        width: 50%;
-        background-color: var(--white-color);
-        color: var(--secod-color);
+        max-width: 350px;
+        width: 80%;
         text-align: center;
         padding: 40px 0;
+        margin-bottom: 30PX;
         border-radius: 10px;
     }
+
+    .galery{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+     .img{
+         width: 80%;
+         height: 350px;
+         border-radius: 3px;
+         margin-bottom: 30px;
+     }
+   
 
 
 }
