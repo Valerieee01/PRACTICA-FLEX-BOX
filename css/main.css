@@ -1,22 +1,13 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url(variables.css);
+@import url(config.css);
+@import url(ayuda.css);
+@import url(header.css);
+@import url(inicio);                                                              
+@import url(servicios.css);
+@import url(galerie.css);
+@import url(contacto.css);
 
-
-
-/* galeria */
-.galery{
-   margin: 0 auto;
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-evenly;
-}
-.img{
-    width: 30%;
-    height: 250px;
-    border-radius: 3px;
-    margin-bottom: 30px;
-}
-/* -----------CONTACTO--------------*/
 
 /*--MEDIA-*/
 @media (max-width: 800px) {
