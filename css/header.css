@@ -6,33 +6,23 @@ header{
     top: 0;
 }
 
-header div{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-.container{
-    max-width: var(--max-width);
-    width: 100%;
-    margin: 0 auto;
-}
-
-nav{
-    height: var(--nav-heigth);
+.nav{
 
 }
 
 .nav-content{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
-.enlaces{
-    text-decoration: none;
-    color: inherit;
-    font-weight: 700;
-    margin-left: 20px;
-}
+.nav_figuire{}
+.nav_logo{}
+.nav_toggle{}
+.nav_imput{}
+.nav_list{}
+.nav_item{}
+.nav_link{}
+
+
 
