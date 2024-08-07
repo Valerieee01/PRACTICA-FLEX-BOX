@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+:root{
+    --main-color: #f6e232;
+    --second-color: #2a2929;
+    --white-color: #f2f2f2;
+    --fon-size: 18px;
+    --max-width: 1400px;
+    --nav-heigth:70px;
+}
+
 html{
     scroll-behavior: smooth;
  }

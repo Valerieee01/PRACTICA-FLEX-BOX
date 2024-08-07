@@ -5,12 +5,12 @@
 @import url(header.css);
 @import url(inicio);                                                              
 @import url(servicios.css);
+@import url(nosotros.css);
 @import url(galerie.css);
 @import url(contacto.css);
 
-
-/*--MEDIA-*/
-@media (max-width: 800px) {
+/*
+@media(max-width: 800px) {
     .principal{
         flex-direction: column;
     }
