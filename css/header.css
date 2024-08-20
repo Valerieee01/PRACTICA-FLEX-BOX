@@ -18,10 +18,6 @@ header{
     --icon-togle-menu: url(/assets/iconos/bx-menu.svg);
 
 }
-
-.nav_figuire{
-
-}
 .nav_logo{
     margin-top: 10px;
 }
@@ -56,7 +52,7 @@ header{
     --icon-togle-menu: url(/assets/iconos/bx-x-circle.svg);
 }
 
-.nav_item{}
+
 .nav_link{
     text-decoration: none;
     color: var(--main-color);
